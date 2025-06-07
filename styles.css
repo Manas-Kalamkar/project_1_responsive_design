@@ -1,0 +1,368 @@
+@media (prefers-reduced-motion: no-preference){
+        * {
+      scroll-behavior: smooth;
+    }
+  }
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:poppins,sans-serif;
+
+}
+body{
+    background-color: #000000;
+    scroll-behavior: smooth;
+    color:white;
+    min-height: 100vw;  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html{
+    font-size:62.5%;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    padding: 0 300px;
+    z-index: 9999;
+}
+header #logo{
+    position: relative;
+    font-size: 2em;
+
+
+}
+
+header ul{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    position:relative;
+    list-style: none;
+}
+
+header ul li a{
+    position:relative;
+    margin:0 35px;  
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191919;
+    margin:auto;
+    padding-top: 200px;
+
+}
+
+
+#homeSection,#projectsSection{
+    display: flex;
+    flex-direction: column; 
+    margin:auto;
+    align-items: center;
+}
+#proImage{
+    background-image: linear-gradient(#FF8660,#9A33FF);
+    border-radius:100%;
+    border:none;
+    object-fit: cover;
+    margin-bottom: 41px;
+}
+
+.newLine{
+    display: inline-block;
+}
+
+h1{
+    font-size: 5.5rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 90%; /* Ensure it's responsive */
+    line-height: 1.3; /* Adjust line height for better readability */
+    margin-bottom: 39px;
+
+}
+
+h1 span span{
+    background-image: linear-gradient(#FF8660,#9A33FF);
+    color: transparent;
+    background-clip: text;
+
+}
+
+#subHeading{
+    font-size: 1.8rem;
+    text-align: center;                                                                 
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 90%; /* Ensure it's responsive */
+    line-height: 1.3; /* Adjust line height for better readability */
+    color: #ffffff83;
+    margin-bottom: 54px;
+}
+
+#btns{
+    display: flex;
+    justify-content: space-between;
+    margin:0 200px;
+    margin-bottom:88px;
+}
+#getInTouch,#downloadCv{
+    font-size: 2.1rem;
+    margin:8px;
+    border:none;
+    border-radius:1000px;
+    padding:10px 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#expin{
+    font-size:2rem;
+    text-transform: uppercase;
+    color: #ffffff83;
+    letter-spacing: 4px;
+    font-size: 500;
+    margin-bottom:48px;
+}
+#logos{
+    margin-bottom: 99px;
+}
+
+#projectHead,#expHead{
+    font-size:3.5rem;
+    background-image: linear-gradient(#FF8660,#D5491D);
+    color: transparent;
+    background-clip: text;
+    margin-bottom: 27px;
+    text-transform: uppercase;
+}
+
+
+#projects{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 96px;
+}
+
+.projectCard{
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    border-radius: 10px;
+}
+
+.projectCard img{
+    width:390px;
+    height:235px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.projectCardInfo{
+    background-color: #2A2A2A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.projectCard .viewing{
+    width: 15.17px;
+    height:14.09px;
+}
+
+.clickhere,.projectName{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.clickhere{
+    font-size:1rem;
+    color:#ffffff83;
+}
+.projectName{
+    font-size:1.9rem;
+}
+
+#view{
+  box-shadow: 0 4px 8px 0 rgba(255, 29, 29, 0.545), 0 6px 20px 0 rgba(255, 0, 0, 0.645);
+}
+#view2{
+  box-shadow: 0 4px 8px 0 rgb(0, 115, 255), 0 6px 20px 0 rgba(3, 150, 255, 0.904);
+}
+
+#allexp{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+}
+
+
+#expHead{
+    background-image: linear-gradient(#5BADFF,#1373D1);
+    color: transparent;
+    background-clip: text;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.exphead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.exphead div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exphead div img{
+    margin-right:14px;  
+}
+h3{
+    font-size:2.1rem;
+}
+
+.exphead p,.expInfo{
+    font-size:1.45rem;
+    color: #ffffff83;
+    
+}
+
+.exp{
+    margin-bottom: 57px;
+}
+
+#contacts{
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+#contactHead{
+    align-items: start;
+}
+
+#contactsInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 100px 100px;
+}
+
+#contactsInfo h2{
+    display: flex;
+    flex-direction: start;
+    margin-bottom: 37px;
+    font-size: 2.35rem;
+    margin-left: 40px;
+}
+
+
+#contactsInfo p{
+    display: flex;
+    flex-direction: start;
+    margin-bottom: 37px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color:#ffffff83;
+}
+
+#email{
+    display:flex;
+    align-items:center;
+    justify-content: start;
+    margin-bottom: 44px;
+}
+
+#email p{
+    margin:0;
+    margin-left: 5px;
+}
+
+
+
+
+@media (max-width:1000px) { 
+    body{
+        padding: 0 15px;
+    }
+    header{
+        padding:0;
+        margin:0;
+    justify-content: start;
+  }
+
+  header ul li a {
+    margin: 0 15px;
+    font-size: 1.4rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  #subHeading {
+    font-size: 1.4rem;
+  }
+
+    #projects{
+        flex-direction: column;
+        gap:40px
+    }
+    #heading,#subHeading{
+        margin:auto 150px;
+    }
+    
+.exphead,.expInfo,#contactHead,#conctactinfo{
+    display: block;
+    align-items: center;
+    margin: 0 100px;
+}
+#email,#socialHandle{
+    align-items: center;
+    margin: 0 100px;
+    margin-bottom: 44px;
+
+}
+
+}
