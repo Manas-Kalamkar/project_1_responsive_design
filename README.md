@@ -4,6 +4,7 @@
 
 A **modern and responsive portfolio website** built using pure **HTML and CSS**. This project features a clean layout, fixed header navigation, smooth scrolling, and gradient-styled text. It adapts to different screen sizes — showing a **column layout on desktop** and switching to a **horizontal (row) layout on mobile** for project sections.
 
+# Live Demo: https://manas-kalamkar.github.io/project_1_responsive_design/
 ## ✨ Features
 
 - Responsive design for desktop and mobile views  
@@ -17,7 +18,7 @@ A **modern and responsive portfolio website** built using pure **HTML and CSS**.
 
 ## 📷 Preview
 
-Screenshot from 2025-06-08 03-00-34](https://github.com/user-attachments/assets/11cf41a0-f01a-494d-a2e8-edb078b4f1fc)
+Screenshot (https://github.com/user-attachments/assets/11cf41a0-f01a-494d-a2e8-edb078b4f1fc)
 
 ## 🚀 Live Demo
 
